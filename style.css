@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: url(./Wallpaper.jpg) center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-window {
+  width: 700px;
+  height: 210px;
+  padding-top: 30px;
+  background: rgb(0, 255, 233);
+  background: linear-gradient(90deg, rgba(255, 84, 189, 0.7), rgba(0,255,233,.7));
+  border: 3px solid rgb(0, 0, 0);
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+input,
+select {
+  width: 200px;
+  height: 30px;
+  border: 2px solid #000;
+  border-radius: 0;
+  padding: 3px 5px;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 600;
+}
+
+.btn {
+  width: 140px;
+  height: 30px;
+  background: rgb(80, 227, 194);
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  font-family: 'Rajdhani', sans-serif;
+  border: 2px solid #000;
+  border-radius: 0;
+  box-shadow: 3px 3px 0px 0px rgba(0,0,0,1);
+  position: relative;
+  top: 0;
+}
